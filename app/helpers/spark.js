@@ -1,2 +1,2 @@
-export { default, sparkClass } from 'ember-input-spark/helpers/spark';
+export { default, sparkClass } from 'ember-sparks/helpers/spark';
 
