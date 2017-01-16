@@ -1,0 +1,59 @@
+@value empty-margin-fix from '../styles';
+
+@value value-color #F9620A;
+
+.option {
+  margin-left: 20px;
+}
+
+.option-name {
+  color: #34AFF2;
+  margin-right: empty-margin-fix;
+}
+
+.option-value {
+  color: value-color;
+  border-radius: 4px;
+  background-color: rgba(0,0,0,0.03);
+  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.03);
+  padding: 4px;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: rgba(0,0,0,0.05);
+    outline: none;
+  }
+
+  /* 
+   * Usually the user's cursor disappear
+   * when the contenteditable is empty.
+   * We don't want this to happen!
+   */
+  &:empty:focus ~ .fake-cursor {
+    width: 1px;
+    height: 120%;
+    background-color: value-color;
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    &:local {
+      animation: blink 1s step-end infinite;
+    }
+  }
+}
+
+.editable-wrapper {
+  position: relative;
+  margin-left: empty-margin-fix;
+}
+
+@keyframes blink {
+  from, to {
+    background-color: value-color;
+  }
+  50% {
+    background-color: transparent;
+  }
+}
+

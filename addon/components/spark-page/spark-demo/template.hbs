@@ -1,0 +1,11 @@
+{{#spark-page/spark-demo/code-window}}
+  {{spark-page/spark-demo/try-code
+    name=config.name
+    options=config.demo
+    didUpdate=(action "didUpdate")
+  }}
+{{/spark-page/spark-demo/code-window}}
+
+<div local-class="preview">
+  {{yield}}
+</div>

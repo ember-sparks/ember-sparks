@@ -1,0 +1,41 @@
+@value code-font from 'ember-sparks/components/spark-page/spark-demo/code-window/styles';
+@value mobile-breakpoint from '../../options-table/styles';
+
+.td {
+  padding: 15px;
+  font-size: 17px;
+  color: rgba(81,53,53,0.68);
+  &.name {
+    color: #2E9FEF;
+  }
+  &.type {
+    color: #bf2a5c;
+    font-family: code-font;
+  }
+  &.description {
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 25px;
+    font-size: 16px;
+  }
+  &.css-class {
+    color: #9372af;
+  }
+
+  & code {
+    font-family: code-font;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 3px 5px;
+  }
+
+  /* Example result can take up entire
+   * width on mobile:
+   */
+  &:not([data-name]) {
+    width: 25%;
+    @media all and (max-width: mobile-breakpoint) {
+      width: auto;
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+}

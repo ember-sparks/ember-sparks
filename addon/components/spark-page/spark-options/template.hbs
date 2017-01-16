@@ -1,0 +1,22 @@
+{{#if config.properties}}
+  {{spark-page/spark-options/options-table
+    title="properties"
+    options=config.properties
+  }}
+{{/if}}
+
+{{#if config.actions}}
+  {{spark-page/spark-options/options-table
+    title="actions"
+    options=config.actions
+  }}
+{{/if}}
+
+{{#if config.theming}}
+  {{#spark-page/spark-options/options-table
+    title="theming"
+    options=config.theming
+  }}
+    {{yield}}
+  {{/spark-page/spark-options/options-table}}
+{{/if}}

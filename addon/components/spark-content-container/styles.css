@@ -1,0 +1,14 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+
+  @media all and (max-width: 1000px) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  @media all and (max-width: 400px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

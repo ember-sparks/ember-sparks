@@ -1,0 +1,84 @@
+@value code-window-width: 455px;
+@value code-font: Inconsolata, Menlo, monospace;
+@value tablet-width: 960px;
+
+.window {
+  background: #FFFFFF;
+  box-shadow: 0 3px 15px 0 rgba(0,0,0,0.04), 0 1px 4px 0 rgba(0,0,0,0.18);
+  border-radius: 4px;
+  width: code-window-width;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+
+  @media all and (max-width: tablet-width) {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  /* 495px is code-window width + content container padding */
+  @media all and (max-width: 495px) {
+    width: 100%;
+  }
+}
+
+.header {
+  background: #F2F2F2;
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.10);
+  font-size: 16px;
+  text-align: center;
+  color: rgba(0,0,0,0.54);
+  position: relative;
+  padding: 8px 0;
+}
+
+.title {
+  color: inherit;
+}
+
+.traffic-lights {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.light {
+  width: 14px;
+  height: 14px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 1px;
+
+  &.red {
+    background-color: #FB6B58;
+  }
+
+  &.yellow {
+    background-color: #FFD50A;
+  }
+
+  &.green {
+    background-color: #6ECA3A;
+  }
+
+}
+
+.content {
+  padding: 20px 30px;
+  font-family: code-font;
+  font-size: 17px;
+  color: #6C6C6C;
+  line-height: 33px;
+  @media all and (max-width: 500px) {
+    padding: 10px 13px;
+    font-size: 16px;
+  }
+}
+

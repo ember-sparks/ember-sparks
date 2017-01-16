@@ -1,0 +1,29 @@
+{{spark-page/page-header
+  config=config
+}}
+
+{{#spark-content-container
+  local-class="body"
+}}
+
+  {{!-- Addon author can decide
+    if they want to present
+    the same component twice
+    of if they need to make
+    some changes and display
+    different ones for the demo
+    and the properties table
+  --}}
+  {{#if split}}
+    {{yield}}
+  {{else}}
+    {{#spark-page/page-body
+      config=config
+    }}
+      {{yield}}
+    {{/spark-page/page-body}}
+  {{/if}}
+
+{{/spark-content-container}}
+
+{{spark-footer}}
