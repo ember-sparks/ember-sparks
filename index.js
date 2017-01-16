@@ -18,4 +18,15 @@ module.exports = {
       ]
     },
   },
+
+  
+  /*
+   * This would ideally only be included for the dummy app:
+   */
+  included(app) {
+    this._super.included.apply(this, arguments);
+
+    this.import(app.bowerDirectory + '/markdown-it/dist/markdown-it.js');
+  },
+
 };
