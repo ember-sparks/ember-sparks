@@ -43,7 +43,8 @@
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "loader.js": "^4.0.10"
+    "loader.js": "^4.0.10",
+    "ember-sparks-blueprint": "https://github.com/t4t5/ember-sparks-blueprint#master"
   },
   "engines": {
     "node": ">= 0.12.0"
