@@ -1,0 +1,68 @@
+@value center-translate: translateY(-50%) translateX(-50%);
+
+.container {
+  height: 630px;  
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  font-size: 40px;
+  color: #816863;
+  line-height: 72px;
+  font-weight: 400;
+  max-width: 500px;
+  display: inline-block;
+  margin-top: 170px;
+  position: relative;
+}
+
+.logo {
+  color: transparent;
+  background-image: url(/images/ember-logo.png);
+  display: inline-block;
+  background-size: contain;
+  width: 143px;
+  height: 54px;
+  margin: 0 6px;
+}
+
+.star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: center-translate;
+  opacity: 0.08;
+  &.first {
+    stroke: #E6654D;
+    &:local {
+      animation: rotating 30s linear infinite;
+    }
+  }
+  &.second {
+    stroke: rgba(230, 134, 77, 0.68);
+    transform: center-translate rotate(35deg);
+    &:local {
+      animation: rotating-2 30s linear infinite;
+    }
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: center-translate rotate(0deg);
+  }
+  to {
+    transform: center-translate rotate(360deg);
+  }
+}
+
+@keyframes rotating-2 {
+  from {
+    transform: center-translate rotate(35deg);
+  }
+  to {
+    transform: center-translate rotate(-325deg);
+  }
+}
+

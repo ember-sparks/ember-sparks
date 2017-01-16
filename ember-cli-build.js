@@ -23,8 +23,5 @@ module.exports = function(defaults) {
     }
   });
 
-  // So that we can easily read the MD in our dummy app:
-  app.import('bower_components/markdown-it/dist/markdown-it.js');
-
   return app.toTree();
 };

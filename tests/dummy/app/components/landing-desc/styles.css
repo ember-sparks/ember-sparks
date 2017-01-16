@@ -1,0 +1,43 @@
+.container {
+  background-color: #E46047;
+  color: white;
+  text-align: center;
+  padding-top: 87px;
+  position: relative;
+  &::before {
+    content: "";
+    height: 52px;
+    background-image: url("/images/transition.svg");
+    width: 100%;
+    position: absolute;
+    top: -51px;
+    left: 0;
+    right: 0;
+    background-size: contain;
+    background-repeat-y: no-repeat;
+    background-position: center bottom;
+  }
+}
+
+.text {
+  font-size: 25px;
+  color: rgba(255,255,255,0.78);
+  line-height: 45px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.11);
+}
+
+.button {
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16);
+  border-radius: 7px;
+  font-size: 20px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.10);
+  color: white;
+  background: none;
+  text-transform: uppercase;
+  padding: 10px 60px;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 80px auto;
+}
+
