@@ -38,13 +38,14 @@
     "ember-cli-sri": "^2.1.0",
     "ember-cli-test-loader": "^1.1.0",
     "ember-cli-uglify": "^1.2.0",
+    "ember-click-outside": "0.1.5",
     "ember-data": "^2.10.0",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "loader.js": "^4.0.10",
-    "ember-sparks-blueprint": "https://github.com/t4t5/ember-sparks-blueprint#master"
+    "ember-sparks-blueprint": "*",
+    "loader.js": "^4.0.10"
   },
   "engines": {
     "node": ">= 0.12.0"

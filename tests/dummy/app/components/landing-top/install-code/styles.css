@@ -1,4 +1,6 @@
 @value code-font: Inconsolata, Menlo, monospace;
+@value mobile-width from '../styles';
+@value smallest-width: 415px;
 
 .window {
   background-color: #615C5B;
@@ -11,6 +13,10 @@
   position: relative;
   text-align: left;
   padding: 15px;
+  @media all and (max-width: smallest-width) {
+    margin: 20px;
+    width: auto;
+  }
 }
 
 .traffic-lights {
@@ -50,6 +56,13 @@
 
   & .command {
     color: #FF8169;
+  }
+
+  @media all and (max-width: mobile-width) {
+    font-size: 14px;
+    &::before {
+      margin-right: 10px;
+    }
   }
 }
 

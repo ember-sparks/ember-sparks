@@ -1,0 +1,6 @@
+/*
+ * Fixes transition.svg overflow:
+ */
+body {
+  overflow-x: hidden;
+}
