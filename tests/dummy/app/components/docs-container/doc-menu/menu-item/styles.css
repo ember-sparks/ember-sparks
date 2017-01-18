@@ -1,0 +1,35 @@
+@value link-color: 113, 63, 63;
+
+.link {
+  display: block;
+  text-decoration: none;
+  padding: 14px 0;
+  color: rgba(link-color, 0.6);
+  font-size: 16px;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 0px;
+    height: 33px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-color: #bb846f;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    transition: width 0.1s;
+  }
+  &:hover {
+    color: rgba(link-color, 1);
+  }
+}
+
+.is-active-link .link {
+  font-weight: 600;
+  color: rgba(link-color, 1);
+
+  &::before {
+    width: 2px;
+  }
+}
+

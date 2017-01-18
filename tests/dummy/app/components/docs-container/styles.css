@@ -1,0 +1,12 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  margin-top: 60px;
+  padding: 0 20px;
+}
+
+.content {
+  flex-grow: 1;
+}
+

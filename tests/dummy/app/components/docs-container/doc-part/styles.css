@@ -1,0 +1,14 @@
+.container {
+  /* Compensate for header height: */
+  padding-top: 80px;
+}
+
+.title {
+  margin-top: 30px;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 400px;
+}
+
