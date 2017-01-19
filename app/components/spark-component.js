@@ -1,2 +1,2 @@
-export { default } from 'ember-input-spark/components/spark-component';
+export { default } from 'ember-sparks/components/spark-component';
 

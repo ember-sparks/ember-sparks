@@ -23,8 +23,6 @@ module.exports = {
     if (invalidComponentName) {
       throw "Invalid component name! Your component must have at least one dash (-) in it!";
     }
-
-    throw "You made it this far!";
   },
 
   afterInstall: function() {

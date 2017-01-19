@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import SparkPageControllerMixin from 'ember-sparks-blueprint/mixins/spark-page-controller-mixin';
+import SparkPageControllerMixin from 'ember-sparks-web/mixins/spark-page-controller-mixin';
 
 import styleClasses from '<%= dasherizedPackageName %>/components/<%= dasherizedModuleName %>/styles';
 

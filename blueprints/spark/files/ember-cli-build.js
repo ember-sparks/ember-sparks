@@ -11,11 +11,15 @@ module.exports = function(defaults) {
   });
 
   /*
-   * We want to be able to read the README from our app:
+   * We want to be able to read the README & package.json from our app
+   * (for metadata):
    */
   var extraAssets = new Funnel('./', {
     srcDir: '/',
-    include: ['README.md'],
+    include: [
+      'README.md',
+      'package.json',
+    ],
     destDir: '/'
   });
 
