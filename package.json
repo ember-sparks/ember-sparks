@@ -20,9 +20,8 @@
   "dependencies": {
     "ember-cli-babel": "^5.1.7",
     "ember-cli-htmlbars": "^1.0.10",
-    "autoprefixer": "6.6.1",
-    "postcss-nesting": "2.3.1",
-    "ember-css-modules": "0.6.4"
+    "ember-css-modules": "0.6.4",
+    "ember-input-spark": "*"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -48,9 +47,10 @@
     "ember-pin": "0.1.7",
     "ember-resolver": "^2.0.3",
     "ember-scroll-to": "0.5.4",
-    "ember-sparks-blueprint": "*",
     "ember-windoc": "0.1.8",
-    "loader.js": "^4.0.10"
+    "loader.js": "^4.0.10",
+    "autoprefixer": "6.6.1",
+    "postcss-nesting": "2.3.1"
   },
   "engines": {
     "node": ">= 0.12.0"

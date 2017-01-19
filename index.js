@@ -10,6 +10,10 @@ var autoprefixer = require('autoprefixer');
 module.exports = {
   name: 'ember-sparks',
 
+  isDevelopingAddon: function() {
+    return true;
+  },
+
   options: {
     cssModules: {
       plugins: [
@@ -18,17 +22,5 @@ module.exports = {
       ]
     },
   },
-
-  
-  /*
-   * This would ideally only be included for the dummy app:
-   */
-  /*
-  included(app) {
-    this._super.included.apply(this, arguments);
-
-    this.import(app.bowerDirectory + '/markdown-it/dist/markdown-it.js');
-  },
-  */
 
 };
