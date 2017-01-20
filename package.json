@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Ambitious UI components for Ember apps.",
   "keywords": [
+    "ember-addon"
   ],
   "license": "MIT",
   "author": "Tristan Edwards (http://tristanedwards.me)",
@@ -19,9 +20,7 @@
   "dependencies": {
     "ember-cli-babel": "^5.1.7",
     "ember-cli-htmlbars": "^1.0.10",
-    "ember-css-modules": "^0.6.4",
-    "my-cool-spark": "*",
-    "ember-input-spark": "*"
+    "ember-css-modules": "^0.6.4"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
