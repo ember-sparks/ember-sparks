@@ -56,6 +56,7 @@ module.exports = {
         { name: 'autoprefixer' },
         { name: 'postcss-nesting' },
         { name: 'markdown-it' },
+        { name: 'broccoli-funnel' },
       ]);
     })
     .then(function() {
