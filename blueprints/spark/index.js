@@ -39,11 +39,14 @@ module.exports = {
 
       return blueprint.addAddonsToProject({
         packages: [
+          { name: 'ember-sparks-web' },
           { name: 'ember-css-modules' },
           { name: 'ember-ajax' },             // For getting README in dummy
           { name: 'ember-content-editable' }, // Display interactive code in dummy
-          // Needed for Markdown parser:
-          // https://github.com/ef4/ember-browserify#using-ember-browserify-in-addons
+          /*
+           * Needed for Markdown parser
+           * See: https://github.com/ef4/ember-browserify#using-ember-browserify-in-addons
+           */
           { name: 'ember-browserify' },
         ],
         blueprintOptions: {

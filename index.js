@@ -4,8 +4,10 @@
 module.exports = {
   name: 'ember-sparks',
 
+  /*
   isDevelopingAddon: function() {
     return true;
   },
+  */
 
 };

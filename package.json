@@ -1,17 +1,22 @@
 {
   "name": "ember-sparks",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Ambitious UI components for Ember apps.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-sparks",
+    "ui"
   ],
   "license": "MIT",
-  "author": "Tristan Edwards (http://tristanedwards.me)",
+  "author": "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "url": "https://github.com/ember-sparks/ember-sparks.git",
+    "type": "git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -45,6 +50,7 @@
     "node": ">= 0.12.0"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "demoURL": "http://ember-sparks.com"
   }
 }
