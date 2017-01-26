@@ -29,7 +29,7 @@
     "ember-input-spark": "^0.1.0",
     "ember-button-spark": "^0.1.0",
     "ember-toggle-spark": "^0.1.0",
-    "ember-select-spark", "^0.1.0"
+    "ember-select-spark": "^0.1.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
