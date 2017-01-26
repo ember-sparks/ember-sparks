@@ -1,14 +1,23 @@
-# Ember Sparks
+<p align="center">
+  <a href="https://ember-sparks.com/">
+    <img alt="Ember Sparks" src="http://ember-sparks.com/images/logotype.png" width="350">
+  </a>
+</p>
 
-> Design isn't about how it looks, it's about how it works.
+<p align="center">
+  Ambitious UI components for Ember apps
+</p>
+
+---
+
+## Why?
+
+> "Design isn't about how it looks, it's about how it works."
 
 Ember Sparks aims to create a new set of default UI components that can be used in all Ember apps. 
 
-By using the power of ember-css-modules and the Ember ecosystem's emphasis on conventions, Ember is in a unique position to be a fantastic platform for component creators. 
+By using the power of [ember-css-modules](https://github.com/salsify/ember-css-modules) and the Ember ecosystem's emphasis on conventions, addon authors can effortlessly share UI elements that have sane defaults, but are also incredibly easy to customize.
 
-With the addition of Ember Sparks, addon authors can effortlessly share UI elements that have sane defaults, but are also incredibly easy to customize.
-
-------
 
 ## Install
 
@@ -32,15 +41,15 @@ You can use them simply by dropping them into your template:
 }}
 ```
 
-Check out the official website's "Components" part to see a list of all the built-in Sparks.
+Check out the [official website](http://ember-sparks.com)'s "Components" menu to see a list of all the built-in Sparks.
 
 
 ## Theming
 
-Customizing components created with Ember Sparks is much simpler and more maintaineable than with most other UI libraries thanks to ember-css-modules. To learn more, check out the "Theming" section in the official docs!
+Customizing components created with Ember Sparks is much simpler and more maintaineable than with most other UI libraries thanks to ember-css-modules. To learn more, check out the ["Theming" section](http://ember-sparks.com/docs#theming) in the official docs!
 
 
 ## Contribute
 
-With Ember Sparks own generator, you can easily create your own Spark components as addons. To learn more, check out the "Contribute" section in the official docs!
+With Ember Sparks own generator, you can easily create your own Spark components as addons. To learn more, check out the ["Contribute" section](http://ember-sparks.com/docs#contribute) in the official docs!
 
