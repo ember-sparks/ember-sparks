@@ -69,8 +69,7 @@ module.exports = {
    */
   updateDummyConfig: function() {
     var search = "    APP: {";
-    var replace = `
-    sparks: {
+    var replace = `    sparks: {
       demo: {
         text: "Change this demo value in tests/dummy/config/environment.js",
       }

@@ -1,27 +1,46 @@
-# ember-sparks
+# Ember Sparks
 
-This README outlines the details of collaborating on this Ember addon.
+> Design isn't about how it looks, it's about how it works.
 
-## Installation
+Ember Sparks aims to create a new set of default UI components that can be used in all Ember apps. 
 
-* `git clone <repository-url>` this repository
-* `cd ember-sparks`
-* `npm install`
-* `bower install`
+By using the power of ember-css-modules and the Ember ecosystem's emphasis on conventions, Ember is in a unique position to be a fantastic platform for component creators. 
 
-## Running
+With the addition of Ember Sparks, addon authors can effortlessly share UI elements that have sane defaults, but are also incredibly easy to customize.
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+------
 
-## Running Tests
+## Install
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+```bash
+ember install ember-sparks
+```
 
-## Building
+Restart your app after the installation and you're ready to go!
 
-* `ember build`
 
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+## Usage
+
+Ember Sparks comes with some handy preinstalled components, such as `{{input-spark}}` and `{{toggle-spark}}`.
+
+You can use them simply by dropping them into your template:
+
+```handlebars
+{{input-spark
+	placeholder="your-username"
+	prefix="ludu.co/@"
+}}
+```
+
+Check out the official website's "Components" part to see a list of all the built-in Sparks.
+
+
+## Theming
+
+Customizing components created with Ember Sparks is much simpler and more maintaineable than with most other UI libraries thanks to ember-css-modules. To learn more, check out the "Theming" section in the official docs!
+
+
+## Contribute
+
+With Ember Sparks own generator, you can easily create your own Spark components as addons. To learn more, check out the "Contribute" section in the official docs!
+
