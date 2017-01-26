@@ -8,6 +8,8 @@
   Ambitious UI components for Ember apps
 </p>
 
+---
+
 Ember Sparks aims to create a new set of default UI components that can be used in all Ember apps. 
 
 By using the power of [ember-css-modules](https://github.com/salsify/ember-css-modules) and the Ember ecosystem's emphasis on conventions, addon authors can effortlessly share UI elements that have sane defaults, but are also incredibly easy to customize.
