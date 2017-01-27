@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://ember-sparks.com/">
+  <a href="http://ember-sparks.com/">
     <img alt="Ember Sparks" src="http://ember-sparks.com/images/logotype.png" width="350">
   </a>
 </p>
