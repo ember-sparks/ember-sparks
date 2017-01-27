@@ -8,6 +8,10 @@
   Ambitious UI components for Ember apps
 </p>
 
+<p align="center">
+  <a href="https://badge.fury.io/js/ember-sparks"><img src="https://badge.fury.io/js/ember-sparks.svg" alt="npm version" height="18"></a>
+</p>
+
 ---
 
 Ember Sparks aims to create a new set of default UI components that can be used in all Ember apps. 
