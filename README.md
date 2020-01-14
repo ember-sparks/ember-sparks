@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="http://ember-sparks.com/">
-    <img alt="Ember Sparks" src="http://ember-sparks.com/images/logotype.png" width="350">
+  <a href="https://ember-sparks.github.io">
+    <img alt="Ember Sparks" src="https://ember-sparks.github.io/images/logotype.png" width="350">
   </a>
 </p>
 
@@ -41,15 +41,15 @@ You can use them simply by dropping them into your template:
 }}
 ```
 
-Check out the [official website](http://ember-sparks.com)'s "Components" menu to see a list of all the built-in Sparks.
+Check out the [official website](https://ember-sparks.github.io)'s "Components" menu to see a list of all the built-in Sparks.
 
 
 ## Theming
 
-Customizing components created with Ember Sparks is much simpler and more maintaineable than with most other UI libraries thanks to ember-css-modules. To learn more, check out the ["Theming" section](http://ember-sparks.com/docs#theming) in the official docs!
+Customizing components created with Ember Sparks is much simpler and more maintaineable than with most other UI libraries thanks to ember-css-modules. To learn more, check out the ["Theming" section](https://ember-sparks.github.io/docs#theming) in the official docs!
 
 
 ## Contribute
 
-With Ember Sparks own generator, you can easily create your own Spark components as addons. To learn more, check out the ["Contribute" section](http://ember-sparks.com/docs#contribute) in the official docs!
+With Ember Sparks own generator, you can easily create your own Spark components as addons. To learn more, check out the ["Contribute" section](https://ember-sparks.github.io/docs#contribute) in the official docs!
 
